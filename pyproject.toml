@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "network-security"
+version = "0.0.1"
+authors = [
+  { name="Shahbaaz Halim", email="halimshahbaaz@gmail.com" },
+]
+description = "A project focused on network security and anomaly detection"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "python-dotenv",
+    "pymongo",
+    "certifi"
+]
+
+[tool.setuptools]
+packages = {find = {}}
